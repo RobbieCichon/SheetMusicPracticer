@@ -90,12 +90,12 @@ async def TimerStart():
 
 
 #Create the image path, this will be changed later on to randomly select a file
-path = "Python//SheetMusicImages/C!.png"
+path = "SheetMusicImages/C!.png"
 img = ImageTk.PhotoImage(Image.open(path))
 
 def FindNewNote():
     #Intialize variables
-    path = "Python//SheetMusicImages"
+    path = "SheetMusicImages"
     ImageList = os.listdir(path)
     global NewImage
     global CurrentPath
